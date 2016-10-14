@@ -4,9 +4,6 @@
 from setuptools import setup, find_packages
 import aioprocessing
 
-with open("README.rst", 'r') as f:
-    readme = f.read()
-
 setup(
     name="aioprocessing",
     version=aioprocessing.version,
@@ -18,7 +15,6 @@ setup(
     license="BSD",
     keywords="asyncio multiprocessing coroutine",
     url="https://github.com/dano/aioprocessing",
-    long_description=readme,
     classifiers=(
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
